@@ -1,0 +1,11 @@
+[package]
+name = "tinyrender"
+version = "0.1.0"
+authors = ["Mattias Cibien <mattias@mattiascibien.net>"]
+build = "build.rs"
+
+[dependencies]
+
+[build-dependencies]
+cc = "1.0.15"
+bindgen = "0.37.0"
